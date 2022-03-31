@@ -35,10 +35,11 @@
 *.idx
 *.ilg
 *.ind
-*.xdv
+
 *.dvi
 *.ps
 
+*.xdv
 ############################################
 # do not upload secret infomation
 myresume.tex
