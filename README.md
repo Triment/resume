@@ -91,7 +91,7 @@ xelatex resume-zh_CN.tex % 编译中文简历
 ### 参考文献
 
 参考文献的引用采用 bib + bst 的方式管理，bib 中存放 BibTeX 格式的引用文本，bst 用于控制 bib 文件的展示形式，默认为 IEEEtran. 编译方式可选如下：
-
+†
 1. OSX/Linux 用户 `latexmk -pdf -pvc -silent myresume-zh_CN.tex` latexmkrc 配置文件可参考我的 [dotfiles/latexmkrc](https://github.com/billryan/dotfiles/blob/master/latex/latexmkrc)
 2. Windows 用户可使用 WinEdt 中的 TeXify 选项编译(未测试)
 
